@@ -2,9 +2,8 @@ import Data from "./config.js";
 import resetWeather from "./resetWeather.js";
 import variables from "./variables.js";
 import weekdays from "./arrays.js";
-// Event will start on a keyup action
-variables.searchBar.addEventListener('keyup', (event) => {
-    // checking the action for specific key (Enter)
+// checking the action for specific key (Enter)
+const keyCheck = (event) => {
     if (event.key === "Enter") {
         // Store target in variable
         const thisCity = event.currentTarget.value.toLowerCase();
@@ -101,6 +100,8 @@ variables.searchBar.addEventListener('keyup', (event) => {
                 return alert("Are you sure you aren't holding your map upside down?");
             });
     };
-});
+};
+// Event will start on a keyup action
+variables.searchBar.addEventListener('keyup', keyCheck);
 
 
