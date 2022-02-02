@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/becodeorg/verou-3-modern-javascript-KoenH81/issues"
   },
-  "homepage": "https://github.com/becodeorg/verou-3-modern-javascript-KoenH81#readme"
+  "homepage": "https://github.com/becodeorg/verou-3-modern-javascript-KoenH81#readme",
+  "devDependencies": {
+    "webpack": "^5.68.0"
+  }
 }
