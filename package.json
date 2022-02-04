@@ -21,6 +21,7 @@
   "homepage": "https://github.com/becodeorg/verou-3-modern-javascript-KoenH81#readme",
   "devDependencies": {
     "eslint": "^8.8.0",
+    "prettier": "2.5.1",
     "webpack": "^5.68.0",
     "webpack-cli": "^4.9.2"
   },
